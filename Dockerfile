@@ -1,6 +1,6 @@
 # Dockerfile for a TShock Terraria Server
 # https://github.com/rfvgyhn/docker-tshock
-FROM mono:3.10.0
+FROM mono:3.12.0
 MAINTAINER rfvgyhn <bahrango@hotmail.com>
 
 # Install unzip package
