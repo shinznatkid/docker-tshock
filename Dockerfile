@@ -17,5 +17,5 @@ COPY config.json /opt/tshock/tshock/config.json
 # Start the server and expose the port
 EXPOSE 7777 7878
 WORKDIR /opt/tshock
-ENTRYPOINT ["mono", "--server", "--gc=sgen", "-O=all", "TerrariaServer.exe"]
+ENTRYPOINT ["mono", "--server", "--gc=boehm", "TerrariaServer.exe"]
 CMD ["-world", "Terraria/Worlds/Default.wld", "-autocreate", "2"]
