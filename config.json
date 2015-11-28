@@ -12,9 +12,9 @@
   "RangeChecks": true,
   "DisableBuild": false,
   "SuperAdminChatRGB": [
-    255.0,
-    0.0,
-    0.0
+    255,
+    0,
+    0
   ],
   "SuperAdminChatPrefix": "(Admin) ",
   "SuperAdminChatSuffix": "",
@@ -103,9 +103,9 @@
   "LogPath": "tshock",
   "PreventInvalidPlaceStyle": true,
   "BroadcastRGB": [
-    127.0,
-    255.0,
-    212.0
+    127,
+    255,
+    212
   ],
   "RestUseNewPermissionModel": true,
   "ApplicationRestTokens": {},
