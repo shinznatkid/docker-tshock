@@ -2,7 +2,7 @@
 ##########
 # Default Options
 ##########
-IMAGE="campbellr/tshock:latest"
+IMAGE="shinznatkid/tshock:latest"
 CONTAINER=""
 BASEDIR=""
 WORLD="world0.wld"
