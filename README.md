@@ -10,7 +10,7 @@ You can install the latest automated build by pulling the image from
 the docker index.
 
 ```bash
-docker pull kalhartt/tshock:latest
+docker pull shinznatkid/tshock:latest
 ```
 
 ## Quick Start
@@ -21,7 +21,7 @@ container. Note the script requires `expect` to be installed, and the running
 user must have docker permissions. To start a server just do the following:
 
 ```bash
-wget https://raw.githubusercontent.com/kalhartt/docker-tshock/master/tshock.sh
+wget https://raw.githubusercontent.com/shinznatkid/docker-tshock/master/tshock.sh
 chmod +x tshock.sh
 
 # Start the server
