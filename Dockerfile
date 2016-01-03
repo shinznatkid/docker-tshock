@@ -11,7 +11,7 @@ RUN apt-get -qq update && \
 RUN curl -sL https://github.com/NyxStudios/TShock/releases/download/v4.3.12/tshock_4.3.12.zip > /tmp/tshock_release.zip && \
     unzip /tmp/tshock_release.zip -d /opt/tshock
 
-COPY config.json /opt/tshock/tshock/config.json
+COPY config.json /opt/tshock/config/config.json
 
 
 # Start the server and expose the port
